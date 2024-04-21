@@ -1,0 +1,19 @@
+{
+  "name": "serverless-restful-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "export $(grep -v '^#' .env | xargs) && sls offline start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^13.3.4"
+  },
+  "dependencies": {
+    "mongoose": "^8.3.2"
+  }
+}
