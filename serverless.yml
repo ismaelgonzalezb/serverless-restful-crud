@@ -20,3 +20,9 @@ functions:
       - httpApi:
           path: /users/create
           method: POST
+  find:
+    handler: src/handlers/find.find
+    events:
+      - httpApi:
+          path: /users/find
+          method: GET
