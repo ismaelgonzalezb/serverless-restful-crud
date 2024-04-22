@@ -38,3 +38,9 @@ functions:
       - httpApi:
           path: /users/update/{id}
           method: PATCH
+  delete:
+    handler: src/handlers/delete.deleted
+    events:
+      - httpApi:
+          path: /users/delete/{id}
+          method: DELETE
