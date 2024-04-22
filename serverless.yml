@@ -26,3 +26,9 @@ functions:
       - httpApi:
           path: /users/find
           method: GET
+  findOne:
+    handler: src/handlers/findOne.findOne
+    events:
+      - httpApi:
+          path: /users/find/{id}
+          method: GET
