@@ -32,3 +32,9 @@ functions:
       - httpApi:
           path: /users/find/{id}
           method: GET
+  update:
+    handler: src/handlers/update.update
+    events:
+      - httpApi:
+          path: /users/update/{id}
+          method: PATCH
