@@ -31,7 +31,7 @@ To run this project
 #### Create user
 
 ```http
-  POST /users/find/{id}
+  POST /users/create
 ```
 
 #### Update user
